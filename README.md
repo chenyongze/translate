@@ -3,7 +3,7 @@
 # Requirement
 
 ```
-PHP >= 5.5
+PHP >= 7.0
 ```
 
 # Installation

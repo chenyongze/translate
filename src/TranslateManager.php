@@ -1,12 +1,12 @@
 <?php
 
-namespace Yan\Translate;
+namespace Yong\Translate;
 
 use Closure;
 use InvalidArgumentException;
-use Yan\Translate\Contracts\FactoryInterface;
-use Yan\Translate\Contracts\ProviderInterface;
-use Yan\Translate\Supports\Config;
+use Yong\Translate\Contracts\FactoryInterface;
+use Yong\Translate\Contracts\ProviderInterface;
+use Yong\Translate\Supports\Config;
 
 class TranslateManager implements FactoryInterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yan\Translate\Providers;
+namespace Yong\Translate\Providers;
 
 use Stichoza\GoogleTranslate\TranslateClient;
-use Yan\Translate\Contracts\ProviderInterface;
-use Yan\Translate\Translate;
+use Yong\Translate\Contracts\ProviderInterface;
+use Yong\Translate\Translate;
 
 class GoogleProvider extends AbstractProvider implements ProviderInterface
 {

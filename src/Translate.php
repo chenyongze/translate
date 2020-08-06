@@ -1,9 +1,9 @@
 <?php
 
-namespace Yan\Translate;
+namespace Yong\Translate;
 
-use Yan\Translate\Contracts\TranslateInterface;
-use Yan\Translate\Traits\HasAttributes;
+use Yong\Translate\Contracts\TranslateInterface;
+use Yong\Translate\Traits\HasAttributes;
 
 class Translate implements TranslateInterface
 {

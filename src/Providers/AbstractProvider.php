@@ -1,10 +1,10 @@
 <?php
 
-namespace Yan\Translate\Providers;
+namespace Yong\Translate\Providers;
 
-use Yan\Translate\Contracts\ProviderInterface;
-use Yan\Translate\Supports\Config;
-use Yan\Translate\Traits\HasHttpRequest;
+use Yong\Translate\Contracts\ProviderInterface;
+use Yong\Translate\Supports\Config;
+use Yong\Translate\Traits\HasHttpRequest;
 
 /**
  * Class AbstractProvider.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yan\Translate\Contracts;
+namespace Yong\Translate\Contracts;
 
 /**
  * Interface TranslateInterface.

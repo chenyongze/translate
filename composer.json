@@ -1,15 +1,15 @@
 {
-    "name": "mouyong/translate",
+    "name": "chenyongze/translate",
     "license": "MIT",
     "authors": [
         {
-            "name": "牟勇",
-            "email": "my24251325@gmail.com"
+            "name": "yongze.chen",
+            "email": "yongze@dingtalk.com"
         }
     ],
     "require": {
-        "php": ">=5.5",
-        "guzzlehttp/guzzle": "^6.3",
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^7.0",
         "stichoza/google-translate-php": "^3.2"
     },
     "require-dev": {
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Yan\\Translate\\": "src"
+            "Yong\\Translate\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yan\\Translate\\Test\\": "tests"
+            "Yong\\Translate\\Test\\": "tests"
         }
     }
 }

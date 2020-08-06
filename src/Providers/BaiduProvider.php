@@ -1,10 +1,10 @@
 <?php
 
-namespace Yan\Translate\Providers;
+namespace Yong\Translate\Providers;
 
-use Yan\Translate\Contracts\ProviderInterface;
-use Yan\Translate\Exceptions\TranslateException;
-use Yan\Translate\Translate;
+use Yong\Translate\Contracts\ProviderInterface;
+use Yong\Translate\Exceptions\TranslateException;
+use Yong\Translate\Translate;
 
 /**
  * Class BaiduProvider.

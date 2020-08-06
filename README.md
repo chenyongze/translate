@@ -1,7 +1,4 @@
 <h1 align="center">Translate</h1>
-<p align="center">
-<a href="https://travis-ci.org/mouyong/translate"><img src="https://travis-ci.org/mouyong/translate.svg?branch=master" alt="Build Status"></a>
-</p>
 
 # Requirement
 
@@ -12,7 +9,7 @@ PHP >= 5.5
 # Installation
 
 ```shell
-$ composer require "mouyong/translate" -vvv
+$ composer require "chenyongze/translate" -vvv
 ```
 
 # Usage
@@ -21,31 +18,26 @@ $ composer require "mouyong/translate" -vvv
 ```php
 <?php
 
-use Yan\Translate\TranslateManager;
+use Yong\Translate\TranslateManager;
 
 $config = [
     'default' => 'google',
 
     'drivers' => [
-        // 留空
         'google' => [
             'app_id' => '',
             'app_key' => '',
         ],
-        
         'baidu' => [
             'ssl' => true,
             'app_id' => 'your-baidu-app_id',
             'app_key' => 'your-baidu-app_key',
         ],
-
         'youdao' => [
             'ssl' => false,
             'app_id' => '你的有道智云 应用ID',
             'app_key' => '你的有道智云 应用密钥',
         ],
-
-        // 留空
         'jinshan' => [
             'app_id' => '',
             'app_key' => '',

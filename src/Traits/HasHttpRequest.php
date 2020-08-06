@@ -1,6 +1,6 @@
 <?php
 
-namespace Yan\Translate\Traits;
+namespace Yong\Translate\Traits;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yan\Translate\Supports;
+namespace Yong\Translate\Supports;
 
 use ArrayAccess;
 use InvalidArgumentException;
